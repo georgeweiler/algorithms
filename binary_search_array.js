@@ -1,5 +1,4 @@
 // Given a sorted array of integers, find the index of a target value using a binary search algorithm.
-
 let binarySeachArray = function(arr, target){
   var start = 0;
   var end = arr.length -1;
@@ -11,4 +10,3 @@ let binarySeachArray = function(arr, target){
   } 
   return -1
 }
-console.log(binarySeachArray([ 1, 22, 33, 45, 53, 62 ], 45))
