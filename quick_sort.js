@@ -16,7 +16,7 @@ function quickSort(array){
   let pivot = array[array.length-1]; // pivot is last item in the array
   let left = [];
   let right = [];
-  for(var i = 0; i<array.length - 1; i++){
+  for(var i = 0; i<array.length - 1; i++) {
     array[i] < pivot ? left.push(array[i]) : right.push(array[i])
   }
   return quickSort(left).concat(pivot, (quickSort(right)))
